@@ -15,7 +15,7 @@ def btn1():
             score += 1
             judge['text']="正解!\nあなたは10問中{}問正解しました!".format(score)
         else:
-            judge['text']="不正解!\n{}の答えは{}\nあなたは10問中{}問正解しました!".format(JA[count-1],EN[count],score)
+            judge['text']="不正解!\n{}の答えは{}\nあなたは10問中{}問正解しました!".format(JA[count],EN[count],score)
         
     elif ans == EN[count]:
         score += 1
